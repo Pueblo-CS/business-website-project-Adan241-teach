@@ -5,3 +5,30 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+
+#header {
+    background-color: #091540;
+    color: beige;
+    height: 60px;
+}
+
+.nav > a {
+    color: beige;
+}
+
+#hero {
+    font-size: 22px;
+    color: beige;
+}
+
+#hero > h1 {
+    font-size: 75px;
+
+}
+
+#cta {
+    color: beige;
+    background-color: #FF7733;
+    text-decoration: none
+    
+}
