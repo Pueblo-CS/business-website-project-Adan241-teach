@@ -6,19 +6,25 @@ body{
     background-size: cover;
 }
 
-#header {
-    background-color: #091540;
-    color: beige;
-    height: 60px;
+a{
+    text-decoration: none;
 }
 
-.nav > a {
+a:hover{
+    text-decoration: underline;
+}
+
+#header, .nav, #hero, #cta{
     color: beige;
+}
+
+#header {
+    background-color: #091540;
+    height: 60px;
 }
 
 #hero {
     font-size: 22px;
-    color: beige;
 }
 
 #hero > h1 {
@@ -29,6 +35,19 @@ body{
 #cta {
     color: beige;
     background-color: #FF7733;
-    text-decoration: none
     
+}
+
+#cta:hover{
+    color: black;
+    background-color:aqua;
+}
+
+#products{
+    background-color: #ced6f1;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: fit-content;
 }
