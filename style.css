@@ -4,6 +4,9 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    margin: 0px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 a{
@@ -21,10 +24,29 @@ a:hover{
 #header {
     background-color: #091540;
     height: 60px;
+    padding: 10px;
+}
+
+.logo{
+    float: left;
+}
+
+.nav{
+    float: right;
+}
+
+.nav > a{
+    text-decoration: none;
+}
+
+.nav > a:hover {
+    border-bottom: 2px solid;
 }
 
 #hero {
     font-size: 22px;
+    margin: 10% auto 10% auto;
+    width: fit-content;
 }
 
 #hero > h1 {
@@ -35,6 +57,7 @@ a:hover{
 #cta {
     color: beige;
     background-color: #FF7733;
+    float: right;
     
 }
 
@@ -43,11 +66,51 @@ a:hover{
     background-color:aqua;
 }
 
+.button {
+    display: block;
+    width: fit-content;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+}
+
 #products{
     background-color: #ced6f1;
+    padding: 20vh 40px 20vh 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .card{
     background-color: rgb(255, 255, 255);
-    width: fit-content;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    box-shadow: 5px 5px 20px #4c66b9; 
+}
+
+#testimonials {
+    padding: 20vh 40px 20vh 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.quote::before, .quote::after {
+    content: "\"";
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.attribution {
+    font-weight: bolder;
+}
+
+.attribution::before{
+    content: "";
 }
